@@ -128,7 +128,7 @@ export default function Home() {
             <div className="md:w-[140px] w-[60px]">
                 <img src="./assets/maul gay.jpg" alt="" />
             </div>
-            <h3 className="text-[16px] normal-case">Gay</h3>
+            <h3 className="text-[16px] normal-case">Maul</h3>
         </div>
     
     </> : ''}
