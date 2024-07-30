@@ -5,12 +5,18 @@ import BubbleBackground from "../components/patterns/BubbleBackground";
 
 export default function Home() {
     const [scrollY, setScrollY] = useState(0);
+    const [gay, setGay] = useState<boolean>(false)
 
   const handleScroll = () => {
     setScrollY(window.scrollY);
   };
 
   useEffect(() => {
+
+    setTimeout(() => {
+        setGay(true)
+    }, 15000)
+
     window.addEventListener('scroll', handleScroll);
 
     // Cleanup event listener on component unmount
@@ -110,19 +116,23 @@ export default function Home() {
 
 <div className="pt-[150px] w-[1200px] m-auto flex ">
 
-<div className="flex gap-5 ml-[20px] md:ml-[100px] flex-col h-[200px] w-max">
-    <div className="md:w-[140px] w-[60px]">
-        <img src="./assets/gays.jpg" alt="" />
-    </div>
-    <h3 className="text-[16px] normal-case">Gays</h3>
-</div>
+    {gay ? <>    
+        <div className="flex gap-5 ml-[20px] md:ml-[100px] flex-col h-[200px] w-max">
+            <div className="md:w-[140px] w-[60px]">
+                <img src="./assets/gays.jpg" alt="" />
+            </div>
+            <h3 className="text-[16px] normal-case">Gays</h3>
+        </div>
 
-<div className="flex gap-5 md:ml-[280px] mt-[410px] flex-col h-[200px] w-max">
-    <div className="md:w-[140px] w-[60px]">
-        <img src="./assets/maul gay.jpg" alt="" />
-    </div>
-    <h3 className="text-[16px] normal-case">Gay</h3>
-</div>
+        <div className="flex gap-5 md:ml-[280px] mt-[410px] flex-col h-[200px] w-max">
+            <div className="md:w-[140px] w-[60px]">
+                <img src="./assets/maul gay.jpg" alt="" />
+            </div>
+            <h3 className="text-[16px] normal-case">Gay</h3>
+        </div>
+    
+    </> : ''}
+
 
 <div className="flex gap-5 md:ml-[400px] ml-[140px] mt-[10px] flex-col h-[200px] w-max">
     <div className="md:w-[140px] w-[60px]">
@@ -153,9 +163,9 @@ export default function Home() {
 
 <div className="flex gap-5 md:ml-[400px] mt-[10px] flex-col h-[200px] w-max">
     <div className="md:w-[140px] w-[60px]">
-        <img src="./assets/IMG_3463.png" alt="" />
+        <img src="./assets/bolong.png" alt="" />
     </div>
-    <h3 className="text-[16px] normal-case">Beben geram</h3>
+    <h3 className="text-[16px] normal-case">Mas mas Pringgabaya</h3>
 </div>
 
 </div>
