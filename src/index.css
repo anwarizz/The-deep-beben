@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: black;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0) translateX(0);
+        opacity: 1;
+    }
+    50% {
+        transform: translateX(10px);
+        opacity: 0.5;
+    }
+}
+
+.animate-float {
+    animation: float infinite ease-in-out;
+}
+
+
+#permukaan {
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,129,196,1) 100%);
+}
+
+#sky {
+  background: rgb(205,230,214);
+  background: linear-gradient(0deg, rgba(205,230,214,1) 0%, rgba(184,227,232,1) 49%);
+}
