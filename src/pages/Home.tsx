@@ -117,7 +117,7 @@ export default function Home() {
 <div className="pt-[150px] w-[1200px] m-auto flex ">
 
     {gay ? <>    
-        <div className="flex gap-5 ml-[20px] md:ml-[100px] flex-col h-[200px] w-max">
+        {/* <div className="flex gap-5 ml-[20px] md:ml-[100px] flex-col h-[200px] w-max">
             <div className="md:w-[140px] w-[60px]">
                 <img src="./assets/gays.jpg" alt="" />
             </div>
@@ -129,7 +129,7 @@ export default function Home() {
                 <img src="./assets/maul gay.jpg" alt="" />
             </div>
             <h3 className="text-[16px] normal-case">Maul</h3>
-        </div>
+        </div> */}
     
     </> : ''}
 
