@@ -31,7 +31,7 @@ export default function Home() {
         
         <ParallaxLayer speed={0.1}>
             <div>
-                <img className="md:w-[300px] w-[140px]" src="/src/assets/sun.png" alt="" />
+                <img className="md:w-[300px] w-[140px]" src="./assets/sun.png" alt="" />
             </div>
         </ParallaxLayer>    
         <ParallaxLayer speed={0.1} sticky={{start: 1, end: 10}}>
@@ -41,12 +41,12 @@ export default function Home() {
         </ParallaxLayer>  
         <ParallaxLayer speed={0.3} offset={0.5} className="mt-[100px]">
             <div>
-                <img className="md:w-[300px] w-[130px]" src="/src/assets/cloud.png" alt="" />
+                <img className="md:w-[300px] w-[130px]" src="./assets/cloud.png" alt="" />
             </div>
         </ParallaxLayer> 
         <ParallaxLayer speed={0.3} offset={0.3} className="mt-[300px] md:mt-[100px]">
             <div>
-                <img className="md:w-[300px] w-[150px] float-end" src="/src/assets/cloud.png" alt="" />
+                <img className="md:w-[300px] w-[150px] float-end" src="./assets/cloud.png" alt="" />
             </div>
         </ParallaxLayer>
         <ParallaxLayer offset={1}>
@@ -61,21 +61,21 @@ export default function Home() {
 
                 <div className="flex gap-5 flex-col h-[200px] w-max">
                     <div className="w-[140px]">
-                        <img src="/src/assets/IMG_1909.png" alt="" />
+                        <img src="./assets/IMG_1909.png" alt="" />
                     </div>
                     <h3 className="text-[16px] normal-case">Beben VCS</h3>
                 </div>
 
                 <div className="flex gap-5 ml-[200px] mt-[410px] flex-col h-[200px] w-max">
                     <div className="w-[140px]">
-                        <img src="/src/assets/IMG_3332.png" alt="" />
+                        <img src="./assets/IMG_3332.png" alt="" />
                     </div>
                     <h3 className="text-[16px] normal-case">Heheheha</h3>
                 </div>
 
                 <div className="flex gap-5 ml-[400px] mt-[110px] flex-col h-[200px] w-max">
                     <div className="w-[140px]">
-                        <img src="/src/assets/IMG_3656.png" alt="" />
+                        <img src="./assets/IMG_3656.png" alt="" />
                     </div>
                     <h3 className="text-[16px] normal-case">a mimir</h3>
                 </div>
@@ -87,21 +87,21 @@ export default function Home() {
 
 <div className="flex gap-5 ml-[100px] flex-col h-[200px] w-max">
     <div className="w-[140px]">
-        <img src="/src/assets/IMG_3373.png" alt="" />
+        <img src="./assets/IMG_3373.png" alt="" />
     </div>
     <h3 className="text-[16px] normal-case">Beben makan</h3>
 </div>
 
 <div className="flex gap-5 ml-[280px] mt-[410px] flex-col h-[200px] w-max">
     <div className="w-[140px]">
-        <img src="/src/assets/IMG_3376.png" alt="" />
+        <img src="./assets/IMG_3376.png" alt="" />
     </div>
     <h3 className="text-[16px] normal-case">Heheheha</h3>
 </div>
 
 <div className="flex gap-5 ml-[400px] mt-[10px] flex-col h-[200px] w-max">
     <div className="w-[140px]">
-        <img src="/src/assets/IMG_3724.png" alt="" />
+        <img src="./assets/IMG_3724.png" alt="" />
     </div>
     <h3 className="text-[16px] normal-case">a mimir</h3>
 </div>
@@ -112,21 +112,21 @@ export default function Home() {
 
 <div className="flex gap-5 ml-[100px] flex-col h-[200px] w-max">
     <div className="w-[140px]">
-        <img src="/src/assets/gays.jpg" alt="" />
+        <img src="./assets/gays.jpg" alt="" />
     </div>
     <h3 className="text-[16px] normal-case">Gays</h3>
 </div>
 
 <div className="flex gap-5 ml-[280px] mt-[410px] flex-col h-[200px] w-max">
     <div className="w-[140px]">
-        <img src="/src/assets/maul gay.jpg" alt="" />
+        <img src="./assets/maul gay.jpg" alt="" />
     </div>
     <h3 className="text-[16px] normal-case">Gay</h3>
 </div>
 
 <div className="flex gap-5 ml-[400px] mt-[10px] flex-col h-[200px] w-max">
     <div className="w-[140px]">
-        <img src="/src/assets/IMG_3463.png" alt="" />
+        <img src="./assets/IMG_3463.png" alt="" />
     </div>
     <h3 className="text-[16px] normal-case">Beben geram</h3>
 </div>
@@ -139,21 +139,21 @@ export default function Home() {
 
 <div className="flex gap-5 ml-[100px] flex-col h-[200px] w-max">
     <div className="w-[140px]">
-        <img src="/src/assets/nightmare.jpg" alt="" />
+        <img src="./assets/nightmare.jpg" alt="" />
     </div>
     <h3 className="text-[16px] normal-case">Nightmare</h3>
 </div>
 
 <div className="flex gap-5 ml-[280px] mt-[410px] flex-col h-[200px] w-max">
     <div className="w-[140px]">
-        <img src="/src/assets/kd.png" alt="" />
+        <img src="./assets/kd.png" alt="" />
     </div>
     <h3 className="text-[16px] normal-case">Gua im fine</h3>
 </div>
 
 <div className="flex gap-5 ml-[400px] mt-[10px] flex-col h-[200px] w-max">
     <div className="w-[140px]">
-        <img src="/src/assets/IMG_3463.png" alt="" />
+        <img src="./assets/IMG_3463.png" alt="" />
     </div>
     <h3 className="text-[16px] normal-case">Beben geram</h3>
 </div>
@@ -166,21 +166,21 @@ export default function Home() {
 
 <div className="flex gap-5 ml-[10px] flex-col h-[200px] w-max">
     <div className="w-[140px]">
-        <img src="/src/assets/ha.jpg" alt="" />
+        <img src="./assets/ha.jpg" alt="" />
     </div>
     <h3 className="text-[16px] normal-case">Nightmare</h3>
 </div>
 
 <div className="flex gap-5 ml-[280px] mt-[110px] flex-col h-[200px] w-max">
     <div className="w-[140px]">
-        <img src="/src/assets/same.jpg" alt="" />
+        <img src="./assets/same.jpg" alt="" />
     </div>
     <h3 className="text-[16px] normal-case">Waiting for kertas merah</h3>
 </div>
 
 <div className="flex gap-5 ml-[400px] mt-[10px] flex-col h-[200px] w-max">
     <div className="w-[140px]">
-        <img src="/src/assets/chat.png" alt="" />
+        <img src="./assets/chat.png" alt="" />
     </div>
     <h3 className="text-[16px] normal-case">Maul ange</h3>
 </div>
@@ -194,14 +194,14 @@ export default function Home() {
 
 <div className="flex gap-5 ml-[280px] mt-[110px] flex-col h-[200px] w-max">
     <div className="w-[140px]">
-        <img src="/src/assets/menarik.png" alt="" />
+        <img src="./assets/menarik.png" alt="" />
     </div>
     <h3 className="text-[16px] normal-case">Menarik</h3>
 </div>
 
 <div className="flex gap-5 ml-[400px] mt-[10px] flex-col h-[200px] w-max">
     <div className="w-[140px]">
-        <img src="/src/assets/aly.png" alt="" />
+        <img src="./assets/aly.png" alt="" />
     </div>
     <h3 className="text-[16px] normal-case">Pasrah</h3>
 </div>
