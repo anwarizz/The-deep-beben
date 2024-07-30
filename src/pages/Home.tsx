@@ -190,9 +190,9 @@ export default function Home() {
 
 <div className="flex gap-5 md:ml-[400px] mt-[10px] flex-col h-[200px] w-max">
     <div className="md:w-[140px] w-[60px]">
-        <img src="./assets/chat.png" alt="" />
+        <img src="./assets/mecak.jpg" alt="" />
     </div>
-    <h3 className="text-[16px] normal-case">Maul ange</h3>
+    <h3 className="text-[16px] normal-case">sesaot</h3>
 </div>
 
 </div>
