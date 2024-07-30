@@ -256,6 +256,18 @@ export default function Home() {
 </div>
 
 </div>
+
+<div className="pt-[150px] w-[1200px] m-auto flex ">
+
+
+<div className="flex gap-5 ml-[400px] mt-[10px] flex-col h-[200px] w-max">
+    <div className="md:w-[140px] w-[60px]">
+        <img src="./assets/hehe.jpg" alt="" />
+    </div>
+    <h3 className="text-[16px] normal-case"></h3>
+</div>
+
+</div>
             
         </ParallaxLayer>
         <ParallaxLayer offset={1} speed={1.5}>
