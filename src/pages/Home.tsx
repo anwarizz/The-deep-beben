@@ -1,6 +1,5 @@
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import { useState, useEffect } from "react";
-import { useScroll, animated } from '@react-spring/web'
 
 import BubbleBackground from "../components/patterns/BubbleBackground";
 
